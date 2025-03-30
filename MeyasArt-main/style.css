@@ -1,0 +1,766 @@
+
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+     
+ }
+ .row {
+  width: 100%;
+
+  --bs-gutter-x: 0rem!important;
+  --bs-gutter-y: 0rem;
+  display: flex;
+  flex-wrap: wrap;
+  
+  margin-top: calc(-1 * var(--bs-gutter-y));
+  margin-right: calc(-.5 * var(--bs-gutter-x));
+  margin-left: calc(-.5 * var(--bs-gutter-x));
+  
+}
+
+
+
+   
+.navbar-toggler {
+  border: none;
+  outline: none;
+  padding: 8px 12px;
+} */
+
+
+ 
+      /* bhawani sir css  */
+
+      .navbar {
+        padding: 10px 10px!important;
+         border-bottom: 1.5px solid #fcb900;/
+    }
+    .nav-item a {
+        color: #fff!important;
+        font-size: 15px;
+        padding-left: 12px!important;
+    }
+      
+     .fa-lg {
+      margin-left: 13px;
+      font-size: 5.25em;
+      line-height: .05em;
+      vertical-align: -1em;
+  } 
+  .navbar-text {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    color: var(--bs-navbar-color);
+   
+    
+}
+ 
+ .carousel-control-prev-icon {
+  position: relative;
+  right: 75px;
+} 
+
+.carousel-control-next-icon {
+  position: relative;
+  right: -75px;
+} 
+
+ .nav-item a:hover{
+      color: #fcb900;
+ }
+ .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+      color: #ffc107!important;
+  }
+  
+ 
+
+  /* .carousel-control-next, .carousel-control-prev {
+    position: relative;
+    top: -2px;
+    bottom: 0;
+      right: 2px;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15%;
+    padding: -11px;
+    color: #fff;
+    text-align: center;
+    background: 0 0;
+    border: 0;
+    opacity: .5;
+    transition: opacity .15s ease;
+} */
+       /* Banner Section */
+
+
+
+
+ 
+ .section   {
+  
+      background-color: #ffdcdc;
+      padding: 60px 0px;
+      align-items: center;
+ }
+ .section .row .h6{
+  align-items: center;
+}
+.statue {
+  display: flex;
+  flex-wrap: nowrap; /* Prevent wrapping by default */
+  gap: 10px; /* Space between items */
+  justify-content: space-between; /* Even spacing between items */
+  text-align: center;
+  overflow-x: auto; /* Enable horizontal scrolling if items overflow */
+}
+
+/* 🖼️ Individual Item Styling */
+.statue > div {
+  flex: 0 0 calc(100% / 6 - 10px); /* 6 items per row by default */
+  text-align: center;
+}
+
+/* 🖌️ Image Styling */
+.statue img {
+  width: 80%;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+/* 📝 Text Styling */
+.statue h6 {
+  margin-top: 5px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+/* Gods or human animal images section */
+
+.explore  h6,h1 {
+      margin-top: 30px ; 
+      margin-bottom: 10px;
+      
+      text-align: center;
+      font-size: 14px;
+      letter-spacing: 1px;      
+      font-family: Lucida Console;
+      font-weight: 400;
+      text-transform: none;
+      line-height: 1.5;
+       color: #2b2b2b; 
+
+
+
+}
+
+
+
+.explore  p{
+  padding: 30px 30px; 
+ 
+text-align: center;
+font-size: 14px;
+letter-spacing: 1px; 
+font-weight: 450; 
+
+}
+     
+.border img {
+
+   position: relative;
+  left :15px; 
+   width: 90%!important;
+  
+
+margin: 0px 0px;
+   border: 2px solid #fcb900
+}
+
+.collections   h1 {
+  margin-top: -35px ; 
+  margin-bottom: -12px;
+  
+
+  text-align: center;
+  font-size: 43px;
+  letter-spacing: 1px;      
+  font-family: Lucida Console;
+  font-weight: 400;
+  text-transform: none;
+  line-height: 1.5;
+   color: #2b2b2b; 
+
+
+
+}
+.collections  h6{
+ 
+  padding: 42px 0px;
+  text-align: center;
+  font-size: 14px;
+  letter-spacing: 3px;      
+}
+
+
+.collections  p{
+padding: 17px 30px;
+   
+text-align: center;
+font-size: 14px;
+letter-spacing: 1px; 
+font-weight: 450; 
+
+}
+.curation h6{
+  position: relative;
+  padding: 36px 0px;
+  text-align: center;
+  font-size: 14px;
+  letter-spacing: 3px;      
+}
+
+.curation  h1 {
+  margin-top: -41px ; 
+  margin-bottom: -20px;
+  
+  text-align: center;
+  font-size: 43px;
+  letter-spacing: 1px;      
+  font-family: Lucida Console;
+  font-weight: 400;
+  text-transform: none;
+  line-height: 1.5;
+   color: #2b2b2b; 
+
+
+
+}
+
+
+.curation  p{
+  
+padding: 20px 30px; 
+
+text-align: center;
+font-size: 14px;
+letter-spacing: 1px; 
+font-weight: 450; 
+
+}
+
+.hawa h1 {
+margin-top: -152px ; 
+  margin-bottom: -41px;
+  padding: 42px 30px;
+  
+  text-align: center;
+  font-size: 38px;
+  letter-spacing: 1px;      
+  font-family: Lucida Console;
+  font-weight: 400;
+  text-transform: none;
+  line-height: 1.5;
+   color: #2b2b2b; 
+   position: relative;
+   top:-59px;
+
+}
+ .hawa h6 {
+
+padding: 80px 0px;
+text-align: center;
+font-size: 14px;
+letter-spacing: 3px; 
+position: relative; 
+top:-91px;    
+} 
+
+
+   .hawa  p{
+     
+    padding: 11px 91px;
+    text-align: center;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: 500;
+  position: relative;
+  top:-64px;
+    }
+
+.hawa {
+
+  background-image: linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85)),
+ url(./img/HawaMahal.webp);
+ text-align: center;
+ height: auto;
+ background-position: center ;
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-color: #fff!important;
+ opacity: .9;
+ transition: background .3s, border-radius .3s,opacity .3s;
+ 
+
+  padding-top: 80px; 
+     
+}
+
+.logohawamahal img{
+
+
+    width:38% !important ;
+ 
+}
+.logohawamahal h6{
+  position: relative;
+  top:-45px
+}
+  
+ 
+ .exp {
+  padding: 50px 47px;
+  text-align: center;
+}
+
+.exp h1 {
+  font-size: 42px;
+
+  letter-spacing: 2.5px;
+}
+.exp h6{
+  font-size: small;
+  letter-spacing: 3px;
+}
+
+.exp p {
+  letter-spacing: 1.5px;
+  font-size: 15px;
+  font-weight: 400;
+  color: #000;
+}
+.god
+.lion,
+.human,
+.home {
+  position: relative; /* Enable positioning for child elements */
+  display: flex;
+  align-items: flex-end; /* Align content to the bottom */
+  justify-content: flex-start; /* Align content to the left */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%!important;
+}
+
+.lion {
+  background-image: url(./img/lion.webp);
+  height: 242px;
+  margin: 5px 0px;
+}
+
+.human {
+  background-image: url(./img/aadmi.png);
+  height: 278px;
+  margin: 0 0 5px 1px;
+}
+
+.home {
+  background-image: url(./img/mayur.webp);
+  height: 280px;
+  margin: 0 0 3px 2px;
+}
+
+/* Shared styles for all <h3> elements */
+.god h3
+.lion h3,
+.human h3,
+.home h3 {
+  color: #fff;
+ 
+  text-align: left !important;
+  padding-left: 10px;
+  font-size: 1.2rem; /* Ensure consistency across screens */
+  width: 100%; /* Full width for better layout control */
+  margin: 0; /* Remove default margin */
+}
+
+  
+  .row .text  h4 {
+    position: relative;
+    bottom:-526px;
+    left:20px;
+   font-weight: 480;
+    font-size: 25px;
+    color: #fff;
+ }  
+
+
+ .row .text1  h4 {
+  position: relative;
+  bottom:-230px;
+  left:20px;
+ font-weight: 480;
+  font-size: 25px;
+  color: #fff;
+}  
+.row .text2  h4 {
+  position: relative;
+  bottom:-240px;
+  left:20px;
+ font-weight: 480;
+  font-size: 25px;
+  color: #fff;
+}  
+
+
+      
+ 
+ /* Hawamahal section */
+
+
+     
+ .logo  h6{
+     padding-top: 5px;
+}
+
+.gods h6{
+     padding-top: 3px;
+}
+
+ .collection  .gods{
+     width: 50% !important;
+}  
+
+.curation  {
+    
+     background-color: #eee;
+}
+
+   
+ .socialicon  {
+     padding: 50px 50px;
+     text-align: center;
+    
+ }
+ .socialicon a i {
+ padding: 6px; 
+     font-size: 35px;
+     margin: 3px; 
+     border-radius: 50%;
+     background-color: #fff;
+    
+   
+ }
+ 
+  
+   
+   .socialicon  a :hover {
+      background-color: #fff; 
+     color: #fcb900;
+       opacity: 0.7;
+   }
+   
+   .socialicon .fa-facebook{
+      background: #fcb900; 
+     color: white;  
+      /* text-align: center; */
+  
+    
+   
+   }
+   
+   .socialicon .fa-twitter {
+     background: #fcb900;
+     color: white;
+   }
+   .socialicon  .fa-google{
+     background: #fcb900;
+     color: white;
+   }
+   .socialicon .fa-linkedin-in {
+     background: #fcb900;
+     color: white;
+      width: 6% !important;  
+     text-align: center;
+   }
+   .socialicon .fa-instagram {
+     background: #fcb900;
+     color: white;
+   }
+   
+   .socialicon .fa-pinterest {
+     background: #fcb900;
+     color: white;
+     /* text-align: center;
+  
+     width: 5% !important;  */
+   
+   }
+     
+   
+   .orders{
+     background-color: #ffdcdc;
+     width: 100%;
+   }
+   .orders img{
+     width: 100% !important;
+     margin-top: 0px;
+     margin-left: 0px;
+     margin-bottom: 20px;
+    
+     padding-bottom: 36px;
+   }
+   .button {
+    
+          padding: 13px 36px;
+          margin-top: 30px;
+          margin-bottom: 30px;
+          border: 2px solid #000;
+          border-radius: 29px;
+          color: #fff;
+          background-color: #000;
+          position: relative;
+          left: 30px;
+   }
+   
+   .button:hover{ 
+    background-color:#ffdcdc;
+    color: #000
+   }
+   .orders h1 {
+     margin-top: 70px;
+      position: relative;
+      right: 19px;
+   padding-right: 20px;
+     font-weight: 500;
+   }
+   .orders  p{
+     justify-content: center;
+     margin-top: 1px;
+   
+     font-weight: 550;
+     font-size: 12px;
+     line-height: 2;
+   text-align: left;
+   padding: 0px 20px;
+
+   
+   
+   
+   }
+
+   .footer img{
+     width: 112% !important ;
+     padding: 0px;
+     margin: -33px;
+   }
+
+   .footer{
+      margin-bottom: -83px;
+      padding: 58px;
+     background-color: #000;
+     
+   } 
+  
+  
+   
+   .footer  p{
+     color: #fff;
+     text-align: left;
+      line-height: 2;
+     padding: 30px 20px;
+     margin-bottom: 20px;
+     
+   }
+   .footer .social a i{
+     text-decoration: none;
+  
+     font-size: 25px;
+     margin: 2px;
+  padding: 8px;
+     border-radius: 50%;
+   }
+     .footer a :hover {
+        background-color: black;   
+      color: #fcb900; 
+       opacity: 0.7;
+   } 
+   
+   .footer .fa-facebook {
+       background: #fcb900;  
+       color: black;
+      
+       text-align: center;
+      
+   }
+   
+   .footer .fa-twitter {
+     background: #fcb900;
+     color: black;
+   }
+   .footer .fa-google{
+     background: #fcb900;
+     color: black;
+   }
+   .footer .fa-linkedin-in {
+     background: #fcb900;
+    
+  
+    text-align: center;
+     color: black;
+   }
+   .footer .fa-instagram {
+     background: #fcb900;
+     color: black;
+   }
+   
+   .footer .fa-pinterest {
+  
+    text-align: center;
+     background: #fcb900;
+     color:  black;
+   } 
+    
+   
+   
+   
+   .footer .foot  ul ol  a{
+     text-decoration: none;
+     font-size: 14px;
+     font-weight: 500;
+     color: #fff;
+     line-height: 2.5;
+     letter-spacing: 3px;
+     position: relative;
+     top:-17px;
+     right: -30px;
+   } 
+   .foot1    h5 {
+     color:#fff;
+     font-size:20px;
+     word-spacing: 40;
+     letter-spacing:4 ;
+     font-weight: 400;
+     position: relative;
+        left :111px
+   
+   }
+   
+   
+   .foot  {
+     position: relative;
+     top:0px;
+
+    
+   }
+    .foot1 ul ol{
+    color: #fff;
+    text-decoration: none;
+    font-size: 17px;
+        font-weight: 500;
+       letter-spacing:2px ;
+        margin-left: 55px;
+       position: relative;
+       top:12px;
+    
+   } 
+   .social{
+    position: relative;
+    top:0px
+   }
+   .foot1{
+     position: relative;
+     top:-25px
+   }
+   .foot1 p{
+    position: relative;
+    right: -15px;
+    top: -27px;
+   
+   
+     text-align: right;
+     letter-spacing: 1px;
+   }
+.foot1 h6 {
+  margin-left: 93px;
+  position: relative;
+  bottom: -9px;
+  font-size: 15px;
+}
+.foot2 h6{
+  margin-left: 93px;
+  position: relative;
+  bottom: -9px;
+  font-size: 15px;
+}
+.foot h6 {
+     font-size: 15px;
+}
+
+.lastfooter{
+ padding-top: 2px;
+ padding-bottom: 3px;
+ /* margin-top: 10px ;
+ margin-bottom: 5px; */
+
+;
+  border-top: 1px solid #fcb900;
+     background-color: #000;
+}
+.lastfooter p{
+  position: relative;
+  font-weight: 300;
+  top: 5px;
+    font-size: 14px;
+     text-align: left;
+      line-height: 2;
+       padding-left:  50px;
+       padding-right: 50px;
+       /* padding-top: 20px; */
+      
+      
+       
+     color: #fff;
+}
+
+.lastfooter h6{
+  background-color: #000;
+padding-top: 10px;
+padding-bottom: 7px;
+
+
+ 
+}
+
+
+
+
+ 
+footer p {
+  color: #fff;
+  font-size: 14px;
+}
+
+footer a {
+  color: #fcb900;
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: #ffdd57;
+}
+
+footer h6 {
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+footer i {
+  font-size: 18px;
+}
+.text-body-secondary {
+  color: white !important;
+}
